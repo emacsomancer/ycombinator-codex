@@ -1,4 +1,4 @@
-Þe \LuaLaTeX Typesetting of þe Book Called þe Y Combinator Codex, containing Wisdome rediscovered by Haskell Curry in þe 20ᵗʰ century in þe Year of Our Lord.
+Þe \LuaLaTeX Typesetting of þe Book Called þe Y Combinator Codex, containing Wisdome rediscovered by Haskell Curry in þe 20ᵗʰ century of þe Year of Our Lord.
 
 [[./ycombinator-codex_banner_sm.png]]
 
@@ -37,4 +37,6 @@
 (1 2 6 24 120 720 5040 40320 362880)        
 #+end_src
 
-
+Founts that are required (in addition to [[https://www.ctan.org/pkg/missaali][Missaali]]):
+- [[https://junicode.sourceforge.io/][Junicode & Foulis Greek]]
+- [[https://github.com/ctrlcctrlv/kjv1611][KJV1611]] 
