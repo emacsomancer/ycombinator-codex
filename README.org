@@ -1,5 +1,5 @@
 Þe \LuaLaTeX Typesetting of the Y Combinator Codex, containing Wisdome rediscovered by Haskell Curry in the 20ᵗʰ century in the Year of Our Lord.
 
-[[./ycombinator-codex-banner.png]]
+[[./ycombinator-codex_banner.png]]
 
 
