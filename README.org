@@ -1,5 +1,40 @@
-Þe \LuaLaTeX Typesetting of the Y Combinator Codex, containing Wisdome rediscovered by Haskell Curry in the 20ᵗʰ century in the Year of Our Lord.
+Þe \LuaLaTeX Typesetting of þe Book Called þe Y Combinator Codex, containing Wisdome rediscovered by Haskell Curry in þe 20ᵗʰ century in þe Year of Our Lord.
 
 [[./ycombinator-codex_banner_sm.png]]
+
+#+begin_src lisp
+  % Y Combinator  
+  (defun Y (f)
+   ((λ (g) (funcall g g))
+     (λ (x)
+       (funcall f (λ (&rest a)
+                    (apply (funcall x x) a))))))
+
+  % factorial
+  (defun fac (n)
+    (funcall
+     (Y (lambda (f)
+         (lambda (n)
+           (if (zerop n)
+             1
+             (* n (funcall f (1- n)))))))
+     n))
+
+  % fibonacci    
+  (defun fib (n)
+    (funcall
+     (Y (lambda (f)
+         (lambda (n a b)
+           (if (< n 1)
+             a
+             (funcall f (1- n) b (+ a b))))))
+     n 0 1))
+
+? (mapcar #'fib '(1 2 3 4 5 6 7 8 9))
+(1 1 2 3 5 8 13 21 34)
+
+? (mapcar #'fac '(1 2 3 4 5 6 7 8 9))
+(1 2 6 24 120 720 5040 40320 362880)        
+#+end_src
 
 
