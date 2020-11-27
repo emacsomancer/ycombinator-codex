@@ -10,16 +10,6 @@
        (funcall f (λ (&rest a)
                     (apply (funcall x x) a))))))
 
-  % factorial
-  (defun fac (n)
-    (funcall
-     (Y (lambda (f)
-         (lambda (n)
-           (if (zerop n)
-             1
-             (* n (funcall f (1- n)))))))
-     n))
-
   % fibonacci    
   (defun fib (n)
     (funcall
@@ -29,6 +19,16 @@
              a
              (funcall f (1- n) b (+ a b))))))
      n 0 1))
+
+  % factorial
+  (defun fac (n)
+    (funcall
+     (Y (lambda (f)
+         (lambda (n)
+           (if (zerop n)
+             1
+             (* n (funcall f (1- n)))))))
+     n))
 
 ? (mapcar #'fib '(1 2 3 4 5 6 7 8 9))
 (1 1 2 3 5 8 13 21 34)
