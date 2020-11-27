@@ -66,9 +66,9 @@
 \begin{comment}
 % Y Combinator  
 (defun Y (f)
- ((λ (g) (funcall g g))
-   (λ (x)
-     (funcall f (λ (&rest a)
+ ((lambda (g) (funcall g g))
+   (lambda (x)
+     (funcall f (lambda (&rest a)
                   (apply (funcall x x) a))))))
 
 % fibonacci    
