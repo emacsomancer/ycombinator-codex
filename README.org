@@ -3,14 +3,14 @@
 [[./ycombinator-codex_banner_sm.png]]
 
 #+begin_src lisp
-  % Y Combinator  
+  ;; Y Combinator  
   (defun Y (f)
    ((lambda (g) (funcall g g))
      (lambda (x)
        (funcall f (lambda (&rest a)
                     (apply (funcall x x) a))))))
 
-  % fibonacci    
+  ;; fibonacci    
   (defun fib (n)
     (funcall
      (Y (lambda (f)
@@ -20,7 +20,7 @@
              (funcall f (1- n) b (+ a b))))))
      n 0 1))
 
-  % factorial
+  ;; factorial
   (defun fac (n)
     (funcall
      (Y (lambda (f)
