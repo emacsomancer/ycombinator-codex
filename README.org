@@ -40,3 +40,5 @@
 Founts that are required (in addition to [[https://www.ctan.org/pkg/missaali][Missaali]]):
 - [[https://junicode.sourceforge.io/][Junicode & Foulis Greek]]
 - [[https://github.com/ctrlcctrlv/kjv1611][KJV1611]] 
+
+  And you'll need some sort of background image. I used f. iiir from the prefix to the Southwick Codex.
