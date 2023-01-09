@@ -45,4 +45,4 @@ Founts that are required (in addition to [[https://www.ctan.org/pkg/missaali][Mi
 
 * Real Calligraphy
 For a hand-produced version, see: [[https://phoe.github.io/codex.html][https://phoe.github.io/codex.html]]
-[[.https://phoe.github.io/img/photo1.jpg]]
+[[https://phoe.github.io/img/photo1.jpg]]
