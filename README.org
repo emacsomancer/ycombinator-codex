@@ -37,13 +37,16 @@
 (1 2 6 24 120 720 5040 40320 362880)        
 #+end_src
 
-Founts that are required (in addition to [[https://www.ctan.org/pkg/missaali][Missaali]]):
+Founts that are required (in addition to [[https://www.ctan.org/pkg/missaali][Missaali]], available as a TeX package from CTAN):
 - [[https://junicode.sourceforge.io/][Junicode & Foulis Greek]]
 - [[https://github.com/ctrlcctrlv/kjv1611][KJV1611]] 
 
-  And you'll need some sort of background image. I used f. iiir from the prefix to the Southwick Codex.
+  And you'll want some sort of background image, probably of a blank manuscript page. I used /f. iii-r/ from the prefix to the [[https://web.archive.org/web/20210308080736/http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Cotton_MS_vitellius_a_xv][Southwick Codex [Cotton MS Vitellius A XV, ff 4r–93v]​]], via the Electronic Beowulf v4.0 edition (https://web.archive.org/web/2/https://ebeowulf.uky.edu/ebeo4.0/CD/s/ii-r.jpg).
 
-* Real Calligraphy
+* Notes
+- migrated from: [[https://gitlab.com/emacsomancer/ycombinator-codex/][https://gitlab.com/emacsomancer/ycombinator-codex/]]
+
+* Real Calligraphic Y-Combinator Codex
 For a hand-produced version, see: [[https://phoe.github.io/codex.html][https://phoe.github.io/codex.html]]
 [[https://phoe.github.io/img/photo1.jpg]]
 
