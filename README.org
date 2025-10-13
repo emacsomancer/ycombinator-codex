@@ -47,7 +47,7 @@ Founts that are required (in addition to [[https://www.ctan.org/pkg/missaali][Mi
 - migrated from: [[https://gitlab.com/emacsomancer/ycombinator-codex/][https://gitlab.com/emacsomancer/ycombinator-codex/]]
 
 * Real Calligraphic Y-Combinator Codex
-For a hand-produced version, see: [[https://phoe.github.io/codex.html][https://phoe.github.io/codex.html]]
+For a hand-produced version, see [[https://phoe.github.io/][Michał "phoe" Herda]]'s great work: [[https://phoe.github.io/codex.html][https://phoe.github.io/codex.html]]
 [[https://phoe.github.io/img/photo1.jpg]]
 
 Prints for purchase available from: [[https://payments.common-lisp.net/printshop][https://payments.common-lisp.net/printshop]]
